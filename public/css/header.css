@@ -17,7 +17,7 @@
 }
 
  .home header .logo{
-    width: 45%;
+    width: 85%;
 }
 
 .home .barra{
@@ -93,8 +93,8 @@ font-size: 13px;
         margin-left: 5px;
     }
     
-     .home header .logo{
-        width: 45%;
+     .home header a .logo{
+        width: 85%;
     }
     
     .home .barra{
@@ -139,8 +139,8 @@ font-size: 13px;
 @media (min-width: 769px){
 
 
-    .home header .logo{
-        width: 55%;
+    .home header a .logo{
+        width: 85%;
     }
 
     .header .logoinput{
@@ -191,14 +191,10 @@ font-size: 13px;
 
 @media (min-width: 1520px){
 
-    header{
-        width: 100%;
-        height: 17em
-    }
+    
 
     .home .logoinput{
-        width: 70%;
-        height: 40%;
+        
         justify-content: space-around;
         
     }
@@ -215,13 +211,9 @@ font-size: 13px;
 }
 
 @media (min-width: 1720px){
-    header{
-        width: 100%;
-        height: 19em
-    }
+  
 
     .home .logoinput{
-        width: 70%;
         height: 40%;
         justify-content: space-around;
         
